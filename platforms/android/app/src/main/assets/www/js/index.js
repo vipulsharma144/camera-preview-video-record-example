@@ -85,29 +85,29 @@ var app = {
         })
         stopRecordCam.addEventListener("click", () => {
             CameraPreview.stopRecordVideo((fp1) => {
-                console.log("S1");
+                //your video path here
                 console.log(fp1);
             }, (fp) => {
-                console.log("S2");
+                
                 console.log(fp);
             });
         })
 
         startRecordCam.addEventListener("click", () => {
-            console.log("Starting")
+            //starting recording file
             CameraPreview.startRecordVideo(optionsVideo, (s) => { console.log(s) }, (e) => {
                 console.log(e);
             });
-            console.log("Ended");
+            
 
         })
 
         flip.addEventListener("click", () => {
-            console.log("Starting switch")
+            //switch camera
             CameraPreview.switchCamera((s) => { console.log(s) }, (e) => {
                 console.log(e);
             });
-            console.log("Ended Switch");
+            
 
         })
 

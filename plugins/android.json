@@ -7,11 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-camera-preview": {
       "PACKAGE_NAME": "com.vipul.videotest"
     },
-    "cordova-plugin-camera-preview": {
-      "ANDROID_SUPPORT_LIBRARY_VERSION": "26+",
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.vipul.videotest"
     }
   },

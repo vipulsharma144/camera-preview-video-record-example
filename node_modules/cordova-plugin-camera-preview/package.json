@@ -1,28 +1,32 @@
 {
-  "_from": "cordova-plugin-camera-preview",
+  "_args": [
+    [
+      "cordova-plugin-camera-preview@0.12.0",
+      "/Users/vipul/Desktop/workspace/test/camera-preview-video-record-example"
+    ]
+  ],
+  "_from": "cordova-plugin-camera-preview@0.12.0",
   "_id": "cordova-plugin-camera-preview@0.12.0",
   "_inBundle": false,
   "_integrity": "sha512-ppI64ReiFiwlNRGtTV1dZos0Gm9cCGqAvEI3+zkDGPn2b63QWGeY7XSSDPcoR23l1g0S9uskFOBcgn4u0+NU7Q==",
   "_location": "/cordova-plugin-camera-preview",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-camera-preview",
+    "raw": "cordova-plugin-camera-preview@0.12.0",
     "name": "cordova-plugin-camera-preview",
     "escapedName": "cordova-plugin-camera-preview",
-    "rawSpec": "",
+    "rawSpec": "0.12.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "0.12.0"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-camera-preview/-/cordova-plugin-camera-preview-0.12.0.tgz",
-  "_shasum": "bac74edc2747faf40334ec0173caafa362e0dd9d",
-  "_spec": "cordova-plugin-camera-preview",
-  "_where": "/Users/vipul/Desktop/workspace/cordovaTest/video-test",
+  "_spec": "0.12.0",
+  "_where": "/Users/vipul/Desktop/workspace/test/camera-preview-video-record-example",
   "author": {
     "name": "Weston Ganger",
     "email": "westonganger@gmail.com",
@@ -31,9 +35,7 @@
   "bugs": {
     "url": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {},
-  "deprecated": false,
   "description": "Cordova plugin that allows camera interaction from HTML code for showing camera preview below or on top of the HTML.",
   "devDependencies": {},
   "homepage": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview",
